@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    padding: 0%;
+    margin: 0%;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: var(--fonte-primaria);
+}
+
+:root {
+    --cor-primaria: #bdb8ad;
+    --cor-secundaria: #ebe7e0;
+    --cor-terciaria: #ffffff;
+    --cor-quartenaria: #c6d4e1;
+    --cor-quintenaria: #44749d;
+
+    --fonte-primaria: 'Roboto Slab', serif;
+}
+
+.cabecalho {
+    background-color: var(--cor-quintenaria);
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.cabecalho .link {
+    margin-right: 1rem;
+    font-size: 1.5rem;
+    color: var(--cor-terciaria);
+}
+
+.rodape {
+    background-color: var(--cor-quintenaria);
+    padding: 0.8rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 0.8rem;
+    color: var(--cor-terciaria);
+}
+
+.rodape span {
+    font-weight: 600;
+}
+
+.inicio {
+    height: 483px;
+    background-image: url(react.png);
+    background-repeat: no-repeat;
+    background-size:cover;   
+}
+
+.inicio-p1,
+.inicio-p2 {
+    color: var(--cor-quartenaria);
+    font-size: 3rem;
+}
+
+.inicio {
+    position: relative;
+}
+
+.inicio-p1 {
+    position: absolute;
+    left: 75px;
+    top: 150px;
+}
+
+.inicio-p2 {
+    position: absolute;
+    right: 75px;
+    bottom: 150px;
+}
+
+.hooks,
+.memo,
+.exemplo {
+    background-color: var(--cor-primaria);
+    color: var(--cor-terciaria);
+    padding: 1rem;
+    height: 483px;
+}
+
+.hooks .titulo,
+.memo .titulo {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 0.8rem;    
+}
+
+.memo .after-span {
+    margin-top: 0.8rem;
+}
+
+.hooks p,
+.memo p {
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    text-align: justify;
+}
+
+.hooks .hooks-p2,
+.hooks .hooks-p3,
+.hooks .hooks-p4 {
+    margin-bottom: 0.8rem;
+}
+
+.hooks .hooks-lista {
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    list-style-type: disc;
+    padding: 0 1rem;
+}
+
+.memo .memo-span {
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+} 
+
+.exemplo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.exemplo .titulo {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 0.8rem;
+}
+
+.exemplo .btn {
+    border: var(--cor-terciaria);
+    border-radius: 15%;
+    padding: 1rem;
+    background-color: var(--cor-quartenaria);
+}
+
+.btn a {
+    color: var(--cor-terciaria);
+    font-size: 1.2rem;
+}

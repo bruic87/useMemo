@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-Edge"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="reset.css">
+    <title>useMemo</title>
+</head>
+<body>
+    
+    <nav class="cabecalho">
+        <div>
+          <a class="link" href="index.html">Início</a>
+          <a class="link" href="hooks.html">Hooks</a>
+          <a class="link" href="useMemo.html">useMemo</a>
+          <a class="link" href="exemplo.html">Exemplo</a>
+        </div>
+      </nav>
+
+    <section class="memo">
+        <h3 class="titulo">React useMemo Hook</h3>
+        <p class="memo-p1">
+          O React useMemo Hook retorna um valor memorizado.
+        </p>
+        <p class="memo-p2">
+          Pense na memorização como cache de um valor para que ele não precise ser recalculado.
+        </p>
+        <p class="memo-p3">
+          O useMemo é executado apenas quando uma de suas dependências é atualizada. Isso pode melhorar o desempenho da aplicação.
+        </p>
+        <span class="memo-span">
+            O useMemo e useCallback são similares. A principal difirença é que o useMemo retorna um valor memorizado e o useCallback retorna uma função memorizada.
+        </span>
+        <b></b>
+        <h3 class="titulo after-span">Desempenho</h3>
+        <p class="memo-p4"> 
+            O useMemo pode ser usado para impedir que funções que consumam muitos recursos sejam acionadas desnecessariamente. 
+        </p>
+    </section>
+
+    <footer class="rodape">
+        <p><span>Hook: useMemo</span>. All Rights Reserved. Designed by <span>Bruic87</span></p>
+    </footer>
+
+</body>
+</html>
